@@ -9,17 +9,23 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+:root {
+    --green: #20b2aa;
+    --white: #fff;
+    --darkgreen: #041B15;
+}
+
 html, body {
     width: 100%;
 }
 
 header {
-    background-color: rgb(43, 43, 43);
+    background-color: var(--darkgreen);
     height: 80px;
 }
 
 nav p {
-    color: aliceblue;
+    color: var(--white);
     font-size: 1.3rem;
     font-weight: bold;
 }
@@ -43,27 +49,31 @@ nav p:hover {
 }
 
 .nav-item a {
-    color: aliceblue;
+    color: var(--white);
     font-size: 1.2rem;
     font-weight: 600;
+    transition: all 0.4s;
 }
 
 .nav-item a:hover {
-    color: lightseagreen;
+    color: var(--green);
+    border-bottom: 1px solid var(--green);
+    padding-bottom: 5px;
 }
 
 .btn-contato {
     margin-right: 10px;
     padding: 5px 20px;
-    border: 1px solid lightseagreen;
+    border: 1px solid var(--green);
     border-radius: 20px;
     background: transparent;
     color: aliceblue;
     font-weight: 600;
     font-size: 1rem;
+    transition: all 0.4s;
 }
 
 .btn-contato:hover {
-    background: lightseagreen;
+    background: var(--green);
     cursor: pointer;
 }
