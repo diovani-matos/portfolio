@@ -44,6 +44,7 @@ nav p:hover {
 .nav-menu {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 40px;
 
 }
@@ -77,3 +78,5 @@ nav p:hover {
     background: var(--green);
     cursor: pointer;
 }
+
+/* main */
