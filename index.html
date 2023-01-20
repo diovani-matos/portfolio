@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'>
     <link rel="stylesheet" href="estilo/style.css">
-    <title>Front End Developer</title>
+    <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <nav class="nav">
-            <p>My Portfolio</p>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#">Home</a></li>
-                <li class="nav-item"><a href="#">Projetos</a></li>
-                <li class="nav-item"><a href="#">Sobre</a></li>
-                <button class="btn-contato">Contato</button>
-            </ul>
+            <div id="mynav" class="overlay" onclick="closeNav()">
+                <a href="#" class="close-btn">&times;</a>
+
+                <div class="overlay-content">
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">About</a></li>
+                    <li class="nav-item"><a href="#">Projects</a></li>
+                    <li class="nav-item"><a href="#">Contact</a></li>
+                </div>
             </div>
-        </nav>
+            <button class="nav-btn" onclick="openNav()">
+                <i class='bx bx-menu'></i>
+            </button>
     </header>
-    <main>
-        <div class="main-tittle">
-            <h1>Olá, sou o Diovani</h1>
-            <h3>Dev Front End</h3>
-        </div>
-    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>

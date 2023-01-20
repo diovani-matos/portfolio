@@ -6,77 +6,62 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
+    outline: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-:root {
-    --green: #20b2aa;
-    --white: #fff;
-    --darkgreen: #041B15;
+.nav-btn {
+    border: 0;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 8px;
+    background-color: black;
+    cursor: pointer;
 }
 
-html, body {
+.nav-btn i {
+    color: white;
+    font-size: 1.7em;
+}
+
+.overlay {
+    height: 100%;
+    width: 0%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
     width: 100%;
+    text-align: center;
+    margin-top: 30px;
 }
 
-header {
-    background-color: var(--darkgreen);
-    height: 80px;
+.overlay-content a{
+    padding: 8px;
+    color: #086375;
+    display: block;
+    font-size: 20px;
+    transition: 0.3s;
 }
 
-nav p {
-    color: var(--white);
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
-nav p:hover {
-    cursor: pointer;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 20px;
-}
-
-.nav-menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
+.overlay a:hover, .overlay a:focus {
+    color: #6DD6DA;
 
 }
 
-.nav-item a {
-    color: var(--white);
-    font-size: 1.2rem;
-    font-weight: 600;
-    transition: all 0.4s;
+.overlay .close-btn {
+    position: absolute;
+    color: #086375;
+    top: 25px;
+    right: 45px;
+    font-size: 60px;
 }
 
-.nav-item a:hover {
-    color: var(--green);
-    border-bottom: 1px solid var(--green);
-    padding-bottom: 5px;
-}
-
-.btn-contato {
-    margin-right: 10px;
-    padding: 5px 20px;
-    border: 1px solid var(--green);
-    border-radius: 20px;
-    background: transparent;
-    color: aliceblue;
-    font-weight: 600;
-    font-size: 1rem;
-    transition: all 0.4s;
-}
-
-.btn-contato:hover {
-    background: var(--green);
-    cursor: pointer;
-}
-
-/* main */
