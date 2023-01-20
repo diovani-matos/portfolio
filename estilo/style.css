@@ -32,7 +32,7 @@
 .overlay {
     height: 100%;
     width: 0%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.9); /* escurecer mais */
     z-index: 9;
     position: fixed;
     left: 0;
