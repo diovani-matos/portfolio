@@ -81,14 +81,14 @@ header {
 
 .about-img {
     width: 40%;
-    height: 250px;
+    height: 220px;
     background-color: lightgrey;
 }
 
 .about-img img {
     position: relative;
-    left: 20%;
-    top: 30%;
+    left: 10%;
+    top: 20%;
     max-width: 150px;
     max-height: 150px;
     border: 5px solid white;
@@ -100,16 +100,67 @@ header {
 .about-txt h1 {
     position: relative;
     margin-top: 20px;
-    left: -25%;
+    left: 5%;
 }
 
 .about-txt p {
     position: relative;
-    margin-top: 10px;
+    left: 5%;
+    margin-top: 20px;
     font-size: 1.2em;
 }
 
 
+.projects-content {
+    display: grid;
+    justify-content: center;
+}
+
+.projects-content h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.projects-content div {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(49, 49, 49, 0.103);
+    box-shadow: 5px 5px  20px rgba(0, 0, 0, 0.267);
+}
+
+.projects-content div:hover {
+    background: var(--turquoise);
+    box-shadow: 5px 5px 20px var(--turquoise);
+}
+
+.projects-content p {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.projects-content img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.skills {
+    display: grid;
+}
+
+.skills div {
+    display: grid;
+}
+
+.skills img {
+    max-width: 80px;
+    max-height: 80px;
+}
 
 
 
