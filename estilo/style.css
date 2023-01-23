@@ -87,9 +87,8 @@ header {
 }
 
 .about-txt p {
-    width: 250px;
-    margin-left: 40px;
-    text-align: justify;
+    width: 300px;
+    text-align: center;
 }
 
 .about-img img {
