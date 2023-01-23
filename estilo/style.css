@@ -75,58 +75,67 @@ header {
 }
 
 .about-container {
-    display: flex;
-    height: 200px;
+    display: block;
+    height: 500px;
+    background: var(--sapphire);
+    color: white;
 }
 
-.about-img {
-    width: 40%;
-    height: 220px;
-    background-color: lightgrey;
+.about-txt {
+    text-align: center;
+    line-height: 50px;
+}
+
+.about-txt p {
+    width: 250px;
+    margin-left: 40px;
+    text-align: justify;
 }
 
 .about-img img {
     position: relative;
-    left: 10%;
-    top: 20%;
+    left: 30%;
+    margin: 10px 0px;
     max-width: 150px;
     max-height: 150px;
-    border: 5px solid white;
-    border-radius: 50%;
-    background-color: lightgrey;
-    
+    border-radius: 50%;  
 }
 
-.about-txt h1 {
-    position: relative;
-    margin-top: 20px;
-    left: 5%;
+.about-txt a {
+    color: white;
+    padding: 5px 10px;
+    margin: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 500;
 }
 
-.about-txt p {
-    position: relative;
-    left: 5%;
-    margin-top: 20px;
-    font-size: 1.2em;
+.about-txt a:hover {
+    background: var(--turquoise);
+    transition: all 0.3s;
 }
-
 
 .projects-content {
     display: grid;
     justify-content: center;
+
 }
 
 .projects-content h1 {
     text-align: center;
-    margin-top: 20px;
+    margin: 20px;
 }
 
 .projects-content div {
+    height: 250px;
     margin-top: 20px;
     padding: 20px;
     border-radius: 15px;
     background: rgba(49, 49, 49, 0.103);
     box-shadow: 5px 5px  20px rgba(0, 0, 0, 0.267);
+    text-align: center;
+    line-height: 30px;
+    color: black;
 }
 
 .projects-content div:hover {
@@ -149,18 +158,41 @@ header {
     max-height: 250px;
 }
 
-.skills {
+
+
+.skills h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.skills-content {
+    margin-top: 40px;
+    margin-left: 10px;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
 }
 
-.skills div {
-    display: grid;
+.skills img{
+    width: 80px;
+    height: 80px;
+    
 }
 
-.skills img {
-    max-width: 80px;
-    max-height: 80px;
+footer{
+    height: 140px;
+    background-color: black;
+    color: #6DD6DA;
+    margin-top: 20px;
 }
 
+footer i {
+    font-size: 25px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
 
-
+footer p {
+    margin-top: 10px;
+    margin-left: 5px;
+}
