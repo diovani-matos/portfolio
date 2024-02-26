@@ -1,0 +1,123 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home_description {
+  display: flex;
+  flex-direction: column;
+}
+
+.home_description h1 {
+  font-size: 2.3rem;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+.home_description span {
+  font-size: 1.3rem;
+  color: #828282;
+}
+
+.home_description .btn_cv {
+  width: 180px;
+  background-color: var(--secondary-turquoise);
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  margin: 30px 0;
+  border: 1px solid transparent;
+  border-radius: 24px;
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.home_description .btn_cv:hover {
+  background-color: transparent;
+  color: var(--secondary-turquoise);
+  border-color: var(--secondary-turquoise);
+}
+
+.home_description .icons {
+  display: flex;
+  gap: 20px;
+  font-size: 2rem;
+}
+
+.icons a {
+  color: var(--secondary-turquoise);
+}
+
+.icons .item {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.icons .item:hover {
+  transform: scale(1.2);
+}
+
+.home img {
+  height: 250px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .home_description {
+    align-items: center;
+  }
+
+  .home_description h1 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .home img{
+    max-height: 250px;
+  }
+
+  .home_description h1{
+    font-size: 1.8rem;
+    margin-top: -35px;
+  }
+
+  .home_description span {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .home_description .btn_cv{
+    max-width: 180px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .home img{
+    max-height: 180px;
+    margin-top: 50px;
+  }
+
+  .home_description h1{
+    font-size: 1.5rem;
+  }
+
+  .home_description span{
+    font-size: 1.2rem;
+    margin: 0;
+  }
+}

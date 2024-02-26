@@ -1,0 +1,23 @@
+.error {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error h1 {
+  font-size: 10rem;
+  color: rgb(211, 11, 11);
+  margin-bottom: 50px;
+}
+
+.error h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.error a {
+  color: var(--black);
+  font-size: 1.2rem;
+}
