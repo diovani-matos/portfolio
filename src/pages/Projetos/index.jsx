@@ -18,8 +18,7 @@ function Projetos() {
           <div className={styles.projeto_item}>
             <h3>La Peruca - Barber Shop</h3>
             <p>
-              Site de uma barbearia fictícia, com link de redirecionamento para
-              WhatsApp!
+              Site de uma barbearia com link de redirecionamento para WhatsApp!
             </p>
             <img
               src="../../../public/projeto1.png"
@@ -46,7 +45,7 @@ function Projetos() {
           </div>
           <div className={styles.projeto_item}>
             <h3>Panetteria</h3>
-            <p>Site de uma padaria fictícia!</p>
+            <p>Site para uma padaria!</p>
             <img src="../../../public/panneteria.png" alt="Panetteria" />
             <div className={styles.assets_projeto}>
               <div className={styles.techs_projeto}>
@@ -68,10 +67,7 @@ function Projetos() {
           </div>
           <div className={styles.projeto_item}>
             <h3>Coffee Beans Shop</h3>
-            <p>
-              Site de uma cafeteria fictícia, onde pode escolher o produto e
-              adicionar ao carrinho!
-            </p>
+            <p>Site para uma cafeteria!</p>
             <img src="../../../public/projeto2.png" alt="Coffee Beans Shop" />
             <div className={styles.assets_projeto}>
               <div className={styles.techs_projeto}>
