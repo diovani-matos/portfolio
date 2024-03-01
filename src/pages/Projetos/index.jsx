@@ -7,6 +7,7 @@ import { faCss3 } from "@fortawesome/free-brands-svg-icons";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { FaSass } from "react-icons/fa";
 import { faJs } from "@fortawesome/free-brands-svg-icons";
+import { SiTailwindcss } from "react-icons/si";
 
 function Projetos() {
   return (
@@ -15,6 +16,30 @@ function Projetos() {
       <section className={styles.projetos}>
         <h1>Projetos</h1>
         <div className={styles.grid_projetos}>
+          <div className={styles.projeto_item}>
+            <h3>La Peruca - Barber Shop</h3>
+            <p>
+              Site de uma barbearia com link de redirecionamento para WhatsApp!
+            </p>
+            <img src="../../../public/napoli-pizzas.png" alt="Napoli Pizzas" />
+            <div className={styles.assets_projeto}>
+              <div className={styles.techs_projeto}>
+                <FontAwesomeIcon icon={faReact} color="#5ED3F3" />
+                <SiTailwindcss color="#38BDF8" />
+              </div>
+              <div className={styles.links_projeto}>
+                <a href="https://napoli-pizzas.vercel.app/" target="blank">
+                  Acessar
+                </a>
+                <a
+                  href="https://github.com/diovani-matos/Pizzaria"
+                  target="blank"
+                >
+                  Repositório
+                </a>
+              </div>
+            </div>
+          </div>
           <div className={styles.projeto_item}>
             <h3>La Peruca - Barber Shop</h3>
             <p>
