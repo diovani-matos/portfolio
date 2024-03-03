@@ -3,14 +3,14 @@ import react from "@vitejs/plugin-react";
 import '@fortawesome/react-fontawesome';
 import "@fortawesome/free-brands-svg-icons";
 import "@fortawesome/free-regular-svg-icons"
-import "react-icons/fa"
+import "react-icons"
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["react-router-dom", "@fortawesome/react-fontawesome", "@fortawesome/free-brands-svg-icons", "@fortawesome/free-regular-svg-icons", 'react-icons/fa'],
+      external: ["react-router-dom", "@fortawesome/react-fontawesome", "@fortawesome/free-brands-svg-icons", "@fortawesome/free-regular-svg-icons", 'react-icons'],
     },
   },
 });
