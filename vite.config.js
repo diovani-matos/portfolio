@@ -1,7 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import '@fortawesome/react-fontawesome';
-import '@fortawesome/react-fontawesome';
 import "@fortawesome/free-brands-svg-icons";
 
 // https://vitejs.dev/config/
