@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from './Home.module.css'
+import styles from "./Home.module.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,16 +24,25 @@ function Home() {
             Download CV
           </a>
           <div className={styles.icons}>
-            <Link to={"https://github.com/diovani-matos"} target="_blank" rel="noopener noreferrer">
+            <Link
+              to={"https://github.com/diovani-matos"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faGithub} className={styles.item} />
             </Link>
             <Link
               to={"https://www.linkedin.com/in/diovani-matos-333a2a228/"}
-              target="_blank" rel="noopener noreferrer"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faLinkedinIn} className={styles.item} />
             </Link>
-            <Link to={"https://wa.me/5551994477827"} target="_blank" rel="noopener noreferrer">
+            <Link
+              to={"https://wa.me/5551994477827"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faWhatsapp} className={styles.item} />
             </Link>
             <Link to={"mailto:matosdiovani@gmail.com"}>
@@ -43,7 +52,7 @@ function Home() {
         </div>
         <div className={styles.home_img}>
           <figure>
-            <img src="../public/eu-logo.png" alt="Diovani Matos" />
+            <img src="/eu-logo.png" alt="Diovani Matos" />
           </figure>
         </div>
       </section>

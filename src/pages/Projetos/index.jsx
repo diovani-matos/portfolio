@@ -21,7 +21,7 @@ function Projetos() {
             <p>
               Site de uma barbearia com link de redirecionamento para WhatsApp!
             </p>
-            <img src="../../../public/napoli-pizzas.png" alt="Napoli Pizzas" />
+            <img src="/napoli-pizzas.png" alt="Napoli Pizzas" />
             <div className={styles.assets_projeto}>
               <div className={styles.techs_projeto}>
                 <FontAwesomeIcon icon={faReact} color="#5ED3F3" />
@@ -46,7 +46,7 @@ function Projetos() {
               Site de uma barbearia com link de redirecionamento para WhatsApp!
             </p>
             <img
-              src="../../../public/projeto1.png"
+              src="/projeto1.png"
               alt="La Peruca Barber Shop"
             />
             <div className={styles.assets_projeto}>
@@ -71,7 +71,7 @@ function Projetos() {
           <div className={styles.projeto_item}>
             <h3>Panetteria</h3>
             <p>Site para uma padaria!</p>
-            <img src="../../../public/panneteria.png" alt="Panetteria" />
+            <img src="/panneteria.png" alt="Panetteria" />
             <div className={styles.assets_projeto}>
               <div className={styles.techs_projeto}>
                 <FontAwesomeIcon icon={faReact} color="#5ED3F3" />
@@ -93,7 +93,7 @@ function Projetos() {
           <div className={styles.projeto_item}>
             <h3>Coffee Beans Shop</h3>
             <p>Site para uma cafeteria!</p>
-            <img src="../../../public/projeto2.png" alt="Coffee Beans Shop" />
+            <img src="/projeto2.png" alt="Coffee Beans Shop" />
             <div className={styles.assets_projeto}>
               <div className={styles.techs_projeto}>
                 <FontAwesomeIcon icon={faHtml5} color="#E65C22 " />
@@ -117,7 +117,7 @@ function Projetos() {
           <div className={styles.projeto_item}>
             <h3>Quiz JavaScript</h3>
             <p>Projeto de um quiz de perguntas sobre javascript!</p>
-            <img src="../../../public/projeto3.png" alt=" Quiz javascript" />
+            <img src="/projeto3.png" alt=" Quiz javascript" />
             <div className={styles.assets_projeto}>
               <div className={styles.techs_projeto}>
                 <FontAwesomeIcon icon={faHtml5} color="#E65C22 " />
