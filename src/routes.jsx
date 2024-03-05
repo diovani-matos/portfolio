@@ -10,12 +10,12 @@ function AppRoutes(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={ <Home/> }></Route>
-                <Route path='/sobre' element={ <Sobre/> }></Route>
-                <Route path='/projetos' element={ <Projetos/> }></Route>
-                <Route path='/contato' element={ <Contato/> }></Route>
+                <Route path='/' element= <Home/> exact></Route>
+                <Route path='/sobre' element= <Sobre/> ></Route>
+                <Route path='/projetos' element= <Projetos/> ></Route>
+                <Route path='/contato' element= <Contato/> ></Route>
 
-                <Route path='*' element={ <Error/> }></Route>
+                <Route path='*' element= <Error/> ></Route>
             </Routes>
         </BrowserRouter>
     )
