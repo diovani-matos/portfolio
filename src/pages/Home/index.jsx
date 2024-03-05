@@ -24,16 +24,16 @@ function Home() {
             Download CV
           </a>
           <div className={styles.icons}>
-            <Link to={"https://github.com/diovani-matos"} target="_blank">
+            <Link to={"https://github.com/diovani-matos"} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} className={styles.item} />
             </Link>
             <Link
               to={"https://www.linkedin.com/in/diovani-matos-333a2a228/"}
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faLinkedinIn} className={styles.item} />
             </Link>
-            <Link to={"https://wa.me/5551994477827"} target="_blank">
+            <Link to={"https://wa.me/5551994477827"} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} className={styles.item} />
             </Link>
             <Link to={"mailto:matosdiovani@gmail.com"}>

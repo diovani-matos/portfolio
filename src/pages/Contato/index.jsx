@@ -15,7 +15,7 @@ function Contatos() {
         <h1>Contato</h1>
         <div className={styles.contact_content}>
           <div className={styles.contact_item}>
-            <Link to={"https://github.com/diovani-matos"} target="blank">
+            <Link to={"https://github.com/diovani-matos"} target="blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} className={styles.item} />
             </Link>
             <span>GitHub</span>
@@ -23,14 +23,14 @@ function Contatos() {
           <div className={styles.contact_item}>
             <Link
               to={"https://www.linkedin.com/in/diovani-matos-333a2a228/"}
-              target="blank"
+              target="blank" rel="noopener noreferrer"
             >
               <FontAwesomeIcon icon={faLinkedinIn} className={styles.item} />
             </Link>
             <span>Linkedin</span>
           </div>
           <div className={styles.contact_item}>
-            <Link to={"https://wa.me/5551994477827"} target="blank">
+            <Link to={"https://wa.me/5551994477827"} target="blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} className={styles.item} />
             </Link>
             <span>WhatsApp</span>
