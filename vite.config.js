@@ -4,6 +4,7 @@ import '@fortawesome/react-fontawesome';
 import "@fortawesome/free-brands-svg-icons";
 import "@fortawesome/free-regular-svg-icons";
 import "react-icons";
+import 'react-router-dom';
 
 // https://vitejs.dev/config/
 export default defineConfig({
