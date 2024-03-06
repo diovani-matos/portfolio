@@ -9,10 +9,10 @@ function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/src/pages/Home" element={<Home />} />
-        <Route path="/src/pages/Sobre" element={<Sobre />} />
-        <Route path="/src/pages/Projetos" element={<Projetos />} />
-        <Route path="/src/pages/Contato" element={<Contato />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Sobre" element={<Sobre />} />
+        <Route path="/Projetos" element={<Projetos />} />
+        <Route path="/Contato" element={<Contato />} />
 
         <Route path="*" element={<Error />} />
       </Routes>
