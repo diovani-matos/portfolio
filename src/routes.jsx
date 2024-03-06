@@ -14,7 +14,7 @@ function AppRoutes() {
         <Route path="/src/pages/Projetos" element={<Projetos />} />
         <Route path="/src/pages/Contato" element={<Contato />} />
 
-        <Route path="/src/pages/Error" element={<Error />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
   );
