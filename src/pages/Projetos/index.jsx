@@ -28,12 +28,17 @@ function Projetos() {
                 <SiTailwindcss color="#38BDF8" />
               </div>
               <div className={styles.links_projeto}>
-                <a href="https://napoli-pizzas.vercel.app/" target="blank" rel="noopener noreferrer">
+                <a
+                  href="https://napoli-pizzas.vercel.app/"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
                   Acessar
                 </a>
                 <a
                   href="https://github.com/diovani-matos/Pizzaria"
-                  target="blank" rel="noopener noreferrer"
+                  target="blank"
+                  rel="noopener noreferrer"
                 >
                   Repositório
                 </a>
@@ -56,12 +61,17 @@ function Projetos() {
                 <FaSass color="#CC6699" />
               </div>
               <div className={styles.links_projeto}>
-                <a href="https://barbearia2-0.vercel.app/" target="blank" rel="noopener noreferrer">
+                <a
+                  href="https://barbearia2-0.vercel.app/"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
                   Acessar
                 </a>
                 <a
                   href="https://github.com/diovani-matos/barbearia2.0/tree/main"
-                  target="blank" rel="noopener noreferrer"
+                  target="blank"
+                  rel="noopener noreferrer"
                 >
                   Repositório
                 </a>
@@ -78,12 +88,17 @@ function Projetos() {
                 <FaSass color="#CC6699" />
               </div>
               <div className={styles.links_projeto}>
-                <a href="https://panetteria.vercel.app/" target="blank" rel="noopener noreferrer">
+                <a
+                  href="https://panetteria.vercel.app/"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
                   Acessar
                 </a>
                 <a
                   href="https://github.com/diovani-matos/projetos/tree/main/padaria/padaria"
-                  target="blank" rel="noopener noreferrer"
+                  target="blank"
+                  rel="noopener noreferrer"
                 >
                   Repositório
                 </a>
@@ -102,12 +117,17 @@ function Projetos() {
                 <FontAwesomeIcon icon={faJs} color="#EFD81D" />
               </div>
               <div className={styles.links_projeto}>
-                <a href="https://projetos-gamma.vercel.app/" target="blank" rel="noopener noreferrer">
+                <a
+                  href="https://projetos-gamma.vercel.app/"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
                   Acessar
                 </a>
                 <a
                   href="https://github.com/diovani-matos/projetos/tree/main/coffee"
-                  target="blank" rel="noopener noreferrer"
+                  target="blank"
+                  rel="noopener noreferrer"
                 >
                   Repositório
                 </a>
@@ -127,11 +147,16 @@ function Projetos() {
               <div className={styles.links_projeto}>
                 <a
                   href="https://quiz-javascript-eight.vercel.app/"
-                  target="blank" rel="noopener noreferrer"
+                  target="blank"
+                  rel="noopener noreferrer"
                 >
                   Acessar
                 </a>
-                <a href="https://github.com/diovani-matos/quiz" target="blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/diovani-matos/quiz"
+                  target="blank"
+                  rel="noopener noreferrer"
+                >
                   Repositório
                 </a>
               </div>
