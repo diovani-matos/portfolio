@@ -1,5 +1,4 @@
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+
 import styles from "./sobre.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
@@ -13,7 +12,6 @@ import { IoLogoFirebase } from "react-icons/io5";
 function Sobre() {
   return (
     <>
-      <Header />
       <section className={styles.about}>
         <h1>Sobre mim</h1>
         <div className={styles.about_content}>
@@ -46,7 +44,6 @@ function Sobre() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

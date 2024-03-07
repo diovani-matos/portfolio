@@ -1,5 +1,3 @@
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 import styles from "./projetos.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
@@ -12,7 +10,6 @@ import { SiTailwindcss } from "react-icons/si";
 function Projetos() {
   return (
     <>
-      <Header />
       <section className={styles.projetos}>
         <h1>Projetos</h1>
         <div className={styles.grid_projetos}>
@@ -164,7 +161,6 @@ function Projetos() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }

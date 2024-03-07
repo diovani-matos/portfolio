@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
@@ -10,8 +8,6 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 function Home() {
   return (
     <>
-      <Header />
-
       <section className={styles.home}>
         <div className={styles.home_description}>
           <h1>Olá, eu sou Diovani Matos</h1>
@@ -56,8 +52,6 @@ function Home() {
           </figure>
         </div>
       </section>
-
-      <Footer />
     </>
   );
 }

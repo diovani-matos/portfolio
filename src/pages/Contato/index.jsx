@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
 import styles from "./contato.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -10,7 +8,6 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 function Contatos() {
   return (
     <>
-      <Header />
       <section className={styles.contact}>
         <h1>Contato</h1>
         <div className={styles.contact_content}>
@@ -43,7 +40,6 @@ function Contatos() {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 }
