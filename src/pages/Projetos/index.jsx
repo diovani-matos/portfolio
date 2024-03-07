@@ -16,7 +16,7 @@ function Projetos() {
           <div className={styles.projeto_item}>
             <h3>La Peruca - Barber Shop</h3>
             <p>
-              Site de uma barbearia com link de redirecionamento para WhatsApp!
+              Site de uma pizzaria com carrousel de imagens, animações e design responsivo!
             </p>
             <img src="/napoli-pizzas.png" alt="Napoli Pizzas" />
             <div className={styles.assets_projeto}>
@@ -77,7 +77,7 @@ function Projetos() {
           </div>
           <div className={styles.projeto_item}>
             <h3>Panetteria</h3>
-            <p>Site para uma padaria!</p>
+            <p>Site para uma padaria com design responsivo e moderno!</p>
             <img src="/panneteria.png" alt="Panetteria" />
             <div className={styles.assets_projeto}>
               <div className={styles.techs_projeto}>
@@ -104,7 +104,7 @@ function Projetos() {
           </div>
           <div className={styles.projeto_item}>
             <h3>Coffee Beans Shop</h3>
-            <p>Site para uma cafeteria!</p>
+            <p>Site para uma cafeteria com carrinho de compras!</p>
             <img src="/projeto2.png" alt="Coffee Beans Shop" />
             <div className={styles.assets_projeto}>
               <div className={styles.techs_projeto}>
