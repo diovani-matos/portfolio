@@ -9,18 +9,20 @@ function Header() {
     setShowMenu(!showMenu);
   };
 
+  const closeMenu = () => {
+    setShowMenu(false);
+};
+
   return (
     <header className={styles.header}>
       <Link to="/">
         <span className={styles.logo}>Diovani Matos</span>
       </Link>
-      <nav 
-      className={`${styles.menu_links} ${showMenu ? styles.show : ""}`}
-      >
-        <Link to="/">Home</Link>
-        <Link to="/sobre">Sobre</Link>
-        <Link to="/projetos">Projetos</Link>
-        <Link to="/contato">Contato</Link>
+      <nav className={`${styles.menu_links} ${showMenu ? styles.show : ""}`}>
+        <Link to="/" onClick={closeMenu}>Home</Link>
+        <Link to="/sobre" onClick={closeMenu}>Sobre</Link>
+        <Link to="/projetos" onClick={closeMenu}>Projetos</Link>
+        <Link to="/contato" onClick={closeMenu}>Contato</Link>
       </nav>
 
       <div className={styles.menu} onClick={toggleMenu}>
