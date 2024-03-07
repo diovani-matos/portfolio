@@ -18,7 +18,7 @@ function Sobre() {
         <h1>Sobre mim</h1>
         <div className={styles.about_content}>
           <div className={styles.img_about}>
-            <img src="../../../public/eu-logo.png" alt="Diovani Matos" />
+            <img src="/eu-logo.png" alt="Diovani Matos" />
           </div>
           <div className={styles.about_description}>
             <p>
