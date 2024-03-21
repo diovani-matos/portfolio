@@ -5,12 +5,15 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Contatos() {
+  AOS.init();
   return (
     <>
       <section className={styles.contact}>
         <h1>Contato</h1>
-        <div className={styles.contact_content}>
+        <div className={styles.contact_content} data-aos='fade-down' data-aos-delay='200' data-aos-duration='500'>
           <div className={styles.contact_item}>
             <Link to={"https://github.com/diovani-matos"} target="blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} className={styles.item} />

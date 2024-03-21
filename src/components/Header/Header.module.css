@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  min-height: 60px;
+  /* min-height: 60px; */
   background-color: var(--black);
   color: var(--white);
   position: fixed;
@@ -27,7 +27,7 @@
   justify-content: flex-start;
   margin-left: 50px;
   font-size: 1.5rem;
-  padding: 20px;
+  padding: 5px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -38,11 +38,11 @@
   justify-content: center;
   gap: 40px;
   margin-right: 40px;
-  padding: 20px 0;
+  padding: 5px 0;
 }
 
 .header nav a {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--white);
   text-decoration: none;
   font-weight: bold;
@@ -85,7 +85,7 @@
     width: 50%;
     height: auto;
     position: absolute;
-    top: 50px;
+    top: 20px;
     right: 0;
     background-color: var(--black);
     border-radius: 14px;
@@ -93,8 +93,7 @@
 }
 
 @media screen and (max-width: 490px) {
-
-  .header .logo{
+  .header .logo {
     display: none;
   }
 

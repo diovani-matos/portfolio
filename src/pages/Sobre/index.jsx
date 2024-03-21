@@ -1,18 +1,19 @@
-
 import styles from "./sobre.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
 import { faCss3 } from "@fortawesome/free-brands-svg-icons";
 import { FaSass } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 import { faJs } from "@fortawesome/free-brands-svg-icons";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
-import { SiTypescript } from "react-icons/si";
-import { IoLogoFirebase } from "react-icons/io5";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Sobre() {
+  AOS.init();
   return (
     <>
-      <section className={styles.about}>
+      <section className={styles.about} data-aos='fade-up' data-aos-delay='400' data-aos-duration='800'>
         <h1>Sobre mim</h1>
         <div className={styles.about_content}>
           <div className={styles.img_about}>
@@ -37,10 +38,9 @@ function Sobre() {
             <FontAwesomeIcon icon={faHtml5} color="#E65C22 " />
             <FontAwesomeIcon icon={faCss3} color="#2489C4" />
             <FaSass color="#CC6699" />
+            <SiTailwindcss color="#38BDF8" />
             <FontAwesomeIcon icon={faJs} color="#EFD81D" />
             <FontAwesomeIcon icon={faReact} color="#5ED3F3" />
-            <SiTypescript color="#2F74C0" />
-            <IoLogoFirebase color="#F79B00" />
           </div>
         </div>
       </section>

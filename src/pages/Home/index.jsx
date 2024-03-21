@@ -5,11 +5,19 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Home() {
+  AOS.init();
   return (
     <>
       <section className={styles.home}>
-        <div className={styles.home_description}>
+        <div
+          className={styles.home_description}
+          data-aos="fade-right"
+          data-aos-delay="200"
+          data-aos-duration="800"
+        >
           <h1>Olá, eu sou Diovani Matos</h1>
           <span>Desenvolvedor Front End</span>
           <a
@@ -46,7 +54,12 @@ function Home() {
             </Link>
           </div>
         </div>
-        <div className={styles.home_img}>
+        <div
+          className={styles.home_img}
+          data-aos="fade-left"
+          data-aos-delay="200"
+          data-aos-duration="800"
+        >
           <figure>
             <img src="/eu-logo.png" alt="Diovani Matos" />
           </figure>
