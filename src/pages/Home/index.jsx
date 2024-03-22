@@ -22,6 +22,8 @@ function Home() {
           <span>Desenvolvedor Front End</span>
           <a
             href="https://docs.google.com/document/d/1A70cOiEZG_BnUOQnszCHJPe1_zJNDr-0/edit?usp=sharing&ouid=100684154301324028334&rtpof=true&sd=true"
+            target="blank"
+            rel="noopener noreferrer"
             download={"CV -Diovani Matos.docx"}
             className={styles.btn_cv}
           >
