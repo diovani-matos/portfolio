@@ -21,7 +21,7 @@ function Home() {
           <h1>Olá, eu sou Diovani Matos</h1>
           <span>Desenvolvedor Front End</span>
           <a
-            href="../../../public/CV -Diovani Matos.docx"
+            href="https://docs.google.com/document/d/1A70cOiEZG_BnUOQnszCHJPe1_zJNDr-0/edit?usp=sharing&ouid=100684154301324028334&rtpof=true&sd=true"
             download={"CV -Diovani Matos.docx"}
             className={styles.btn_cv}
           >
